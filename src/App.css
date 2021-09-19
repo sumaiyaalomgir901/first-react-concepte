@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.person {
+  border: 3px solid black;
+  background-color: lightblue;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.friend-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.friend {
+  border: 3px solid red;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: lightyellow;
+}
